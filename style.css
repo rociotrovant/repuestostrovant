@@ -1,0 +1,729 @@
+
+/*fonts releway*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;500&family=Raleway:wght@100;300&display=swap');
+/* font-family: 'Inconsolata', monospace;
+font-family: 'Raleway', sans-serif; */
+
+/* propiedades head*/
+html{
+    font-size: 62.5%;
+}
+
+/*propiedades del footer*/
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    margin-top: 0rem;
+    padding-top: 0rem ;
+
+}
+
+.image-facebook{
+    float: left;
+    height: 60px;
+    width: 60px;
+    border-radius: 90%;
+    border: #dc2d22 1px solid;
+}
+.image-instagram{
+    float: flex;
+    height: 50px;
+    width: 50px;
+    border: #dc2d22 solid 1px;
+    border-radius: 90%;
+    
+}
+
+
+/*propiedades del body*/
+.body{
+    margin: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+    padding-right: 2rem;
+    background-color: black;
+    
+}
+
+
+/*propiedades del header*/
+.image-logo {
+    width: 150px;
+    height: 150px;
+ 
+}
+.navbar-toggler-icon{
+    color: #dc2d22;
+    background-color: #dc2d22;
+    background-size: 2rem;
+   height: 3rem;
+   width: 3rem;
+}
+.nav-item{
+    margin-right: 5rem;
+}
+.menu{
+    background-color: black;
+}
+.link{
+    color: #dc2d22;
+    font-family: 'Inconsolata', monospace;
+    font-size: 2rem;
+
+}
+/*
+.bannerinicial{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    background-color: black;
+    align-items: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    top: 0;
+    position:sticky;
+    z-index: 10;
+
+}
+
+header ul{
+    list-style-type:none;
+    display: flex;
+
+}
+
+
+.navbar{
+    margin-right: 1rem;
+
+    
+}
+.navbar a {
+    color: #dc2d22;
+    text-transform: uppercase;
+    font-size: 2rem;
+    padding: 2rem 2rem;
+    text-decoration: none;
+    font-family: 'Inconsolata', monospace;
+}
+*/
+
+/*propiedades del main index 1c0d02 0d02*/
+.main{
+    background-color: black;
+    border: none;
+    width: 100%;
+    min-height: calc(100vh-50px-25px);
+    border: black solid 2px ;
+
+}
+.title {
+    font-size: 40px;
+    font-style: inherit;
+    font-weight: bolder;
+    text-decoration-line: underline;
+    color: #dc2d22;
+    text-align: center;
+    margin: 40px;
+    font-family: 'Inconsolata', monospace;
+    display: flex;
+    justify-content: center;
+
+    
+}
+.pharagraf { 
+    font-family: 'Inconsolata', monospace;
+    font-weight: lighter;
+    font-style: normal;
+    text-align: center;
+    font-size: 25px;
+    color: #dc2d22;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.bannerinicial{
+    font-size: medium;
+    font-style: italic;
+    margin-top: 0px;
+   padding-top: 0px;
+   border: black 2px solid;
+
+}
+
+.image-rt {
+    width: 100%;
+    height:400px;
+    font-display: flex;
+   text-align: initial;
+
+}
+.vector01{
+    width: 250px;
+    height: 250px;
+}
+.index-01{
+    display: flex;
+    display: block;
+    margin-top: 0;
+}
+.conteinervector{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    font-weight: bolder;
+    font-size: xx-large;
+    width:1226px;
+
+}
+
+.videopresentacion{
+    width: 300px;
+    height: 350px;
+}
+.conteiner-dyh{
+    display: flex;
+    justify-content: center;
+}
+.image-dyh{
+    width: 350px;
+    height: 550px;
+}
+
+/*.conteiner-destacados1{
+    display: flex;
+    justify-content:center;
+    justify-items:center;
+    text-align: center;
+
+}*/
+.conteiner-destacados1{
+width: 550px;
+height: 500px;
+display: flex;
+justify-content: end;
+align-items: end;
+margin-bottom: 10rem;
+margin-left: 40rem;
+}
+.conteinerllegados{
+    
+    width: 50%;
+
+}
+.image-recambio{
+    margin-left: 40px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    height: 350px;
+    width: 310px;
+}
+.titleoferta{
+    font-size: 25px;
+    color: #dc2d22;
+}
+.image-oferta{
+    height: 375px;
+    width: 310px;
+    margin-left: 40px;
+    margin-right: 25px;
+}
+.conteiner-ubicacion{
+    display: flex;
+    justify-content:space-around;
+    margin-bottom: 30px;
+    margin-bottom: 0px;
+    align-items: center;
+}
+.pharagrafdyh{
+    font-family: 'Inconsolata', monospace;
+    font-weight:bolder;
+    font-style:initial;
+    text-align: center;
+    font-size: 30px;
+    color: #dc2d22;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+/*propiedades personal*/
+.bannerpersonal{
+    margin: 2rem;
+}
+.card{
+    width: 28rem;
+    align-items: center;
+    background-color: #fa0c0009;
+    font-family: 'Inconsolata', monospace;
+
+}
+.card-title{
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #dc2d22;
+}
+.card-text{
+    font-size: 1.8rem;
+    font-weight: normal;
+    color: #dc2d22;
+
+}
+.card-link{
+    font-size: 2rem;
+    font-style: oblique;
+    color:#dc2d22;
+    
+
+}
+.list-group-item{
+    background-color: #fa0c0009;
+    color:#dc2d22;
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.5rem;
+    font-weight: light;
+
+}
+.card-img-top{
+    height: 17rem;
+    width: 17rem;
+}
+.sectionpersonal{
+    display: flex;
+    display: block;
+}
+.pharagrafpersonal{
+    font-family: 'Inconsolata', monospace;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    font-size: 40px;
+    color: #dc2d22;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+.imagepersonal01{
+    height: 300px;
+    width: 400px;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+.imagepersonal02{
+    height: 300px;
+    width: 400px;
+    margin-top: 40px;
+    
+}
+/**
+.conteinerdueño{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.conteineradministracion{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.conteineratencionalpublico{
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    align-items: center;
+}
+.conteinerpersonal02{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+**/
+.pharagrafpersonal{
+    text-align:left;
+    font-family: 'Inconsolata', monospace;
+    font-weight: lighter;
+    font-style: normal;
+    font-size: 20px;
+    color: #dc2d22;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+.imagepersonal03{
+    height: 270px;
+    width: 270px;
+}
+.conteinerequipo{
+    border: black solid 2px;
+}
+.conteinerpersonal01{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*estilos de servicios*/
+.conteinergrid{
+    background-image: url(https://i.pinimg.com/originals/b0/f3/71/b0f3719609bd1df4def2df1e21234c30.jpg);
+    width: 100%;
+    min-height: calc(100vh-50px-25px);
+    border: black solid 2px ;
+    display: grid;
+    grid-template-columns: 25% 35% 30% ;
+    grid-template-rows:  150px 200px 200px 200px 200px;
+    grid-template-areas: 
+    "titulo titulo titulo "
+    "titulo1 image1 image11 "
+    "texto1  image1 texto4 "
+    "titulo2  texto2 image3 "
+    "image22 image2 image3 "
+    "titulo3 texto3 image3 "
+    ;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    row-gap: 3px;
+    column-gap: 6px;
+
+}
+.conteinergrid img{
+    width: 100%;
+    height: 100%;
+
+}
+.title-grid1{
+    font-size: 2.5rem;
+    color: #dc2d22;
+    grid-area: titulo1;
+    
+}
+.title-grid2{
+    font-size: 2.5rem;
+    color: #dc2d22;
+    grid-area: titulo2;
+}
+.title-grid3{
+    font-size: 2.5rem;
+    color: #dc2d22;
+    grid-area: titulo3 ;
+}
+.gridh1{
+    font-size: 4rem;
+    font-style: inherit;
+    font-weight: bolder;
+    text-decoration-line: underline;
+    color: #dc2d22;
+    margin: 4rem;
+    font-family: 'Inconsolata', monospace;
+    grid-area: titulo ;
+
+}
+.grid-text1{
+    font-family: 'Inconsolata', monospace;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 18px;
+    color: #dc2d22;
+    grid-area: texto1 ;
+    
+
+}
+.grid-text2{
+    font-family: 'Inconsolata', monospace;
+    font-weight:bold;
+    font-style: normal;
+    font-size: 18px;
+    color:#dc2d22;
+    grid-area: texto2 ;
+}
+.grid-text3{
+    font-family: 'Inconsolata', monospace;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 18px;
+    color: #dc2d22;
+    margin-left: 15px;
+    margin-right: 15px;
+    grid-area: texto3 ;
+}
+.grid-text4{
+    font-family: 'Inconsolata', monospace;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 20px;
+    color: #dc2d22;
+    grid-area: texto4 ;
+}
+
+.repuestos01{
+    grid-area: image1;
+}
+.repuesto011{
+    grid-area: image11;
+}
+.repuestos02{
+    grid-area: image2;
+}
+.repuestos22{
+    grid-area: image22;
+}
+
+.repuestos03{
+
+    grid-area: image3;
+}
+/*Estilos de trayectoria*/
+.trayectoria-1{
+    width: auto;
+}
+
+.fundadortrayectoria{
+    height: 350px;
+    width: 300px;
+}
+
+.bannertrayectoria{
+    height: 350px;
+    width: 80%;
+    margin-left: 150px;
+    margin-bottom: 40px;
+}
+.image-trayectoria{
+    width: 300px;
+    height: 350px;
+    
+}
+.image-trayectoria02{
+    width: 300px;
+    height: 350px;
+}
+
+/*estilos de contactos*/
+.image-contacto{
+    height: 100px;
+    width: 150px;
+    float: right;
+    margin-top: 15px;
+}
+.pharagraf-contact{
+    margin-top: 100px;
+    color: #1c0d02;
+   text-align: center;
+   text-shadow: black;
+   text-decoration-line: underline;
+   font-family: 'Inconsolata', monospace;
+}
+.main-contacto{
+    background-color: #dc2d22;
+    border: none;
+    margin-left: 0;
+}
+.conteiner-contact02{
+    margin-left: 150px;
+
+
+}
+.conteiner-contact02 form{
+    margin-top: 50px;
+    font-size: xx-large;
+}
+.titlecontacto{
+    font-size: 50px;
+    color: whitesmoke;
+    margin-left: 20px;
+    font-family: 'Inconsolata', monospace;
+}
+.pharagraf-contacto02{
+    margin-left: 20px;
+    margin-bottom: 30px;
+    font-family: 'Inconsolata', monospace;
+}
+.footer-contacto{
+    background-color: #dc2d22;
+
+}
+
+@media only screen and (max-width:500px){
+    .header{
+        flex-direction: column;
+        justify-content: center;
+        font-size: 0.4rem;
+        align-items: center;
+       
+
+    }
+    .image-logo{
+        height: 100px;
+        width: 100px;
+    
+        
+    }
+    .header a{
+        justify-content: space-between;
+        font-size: 1rem;
+        padding: 0.5rem;
+        margin-left: 0rem;
+
+    }
+    
+    .navbar{
+        width: 100%;
+        
+    }
+    .title{
+        font-size: 2rem;
+
+    }
+    .pharagraf{
+        font-size: 1rem;
+        font-weight: bold;
+        text-align: start;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+     }
+
+
+    .image-rt{
+        display: none;
+    }
+    .conteinervector p {
+        font-size: 1.5rem;
+        font-weight: bolder;
+        text-align: center;
+
+    }
+    .conteinervector img{
+        height: 10rem;
+        width: auto;
+    }
+    .image-recambio{
+        width: 200px;
+        height: 150px;
+        
+    }
+    .conteiner-destacados1{
+        margin-right: 6rem;
+    }
+    .conteinerllegados{
+
+        width: 100%;
+    }
+    .image-oferta{
+        width: 200px;
+        height: 150px;
+
+    }
+    .conteiner-horario{
+        display: none;
+    }
+    .ubicacionmapa{
+      display: none;
+    }
+    .ubicacion{
+        display: none;
+    }
+    .conteiner-destacados1{
+        display: none;
+    }
+       
+  
+/**/
+   .conteinergrid{
+    grid-template-areas: 
+    "titulo"
+    "titulo1"
+    "texto1"
+    "image1"
+    "titulo2"
+    "texto2"
+    "image2"
+    "titulo3"
+    "texto3"
+    "image22"
+    "texto4";
+    grid-template-columns: 90%;
+    grid-template-rows: 3rem 6rem 18rem 20rem 6rem 4rem 15rem 7rem 15rem 25rem 5rem
+}
+.repuestos03{
+
+   display: none;
+}
+.repuesto011 {
+    display: none;
+
+}
+.title-grid1{
+    font-size: 2rem;
+}
+.title-grid2{
+    font-size: 2rem;
+}
+.title-grid3{
+    font-size: 2rem;
+}
+.gridh1{
+    font-size: 2rem;
+    margin-top: 5rem;
+}
+.grid-text1{
+    font-weight: lighter;
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    margin-left: 4rem;
+
+}
+.grid-text2{
+    font-weight:lighter;
+    font-size: 1.8rem;
+    margin-left: 4rem;
+
+}
+.grid-text3{
+    font-weight: lighter;
+    font-size: 1.8rem;
+    margin-left: 4rem;
+  
+}
+.grid-text4{
+    font-weight: lighter;
+    font-size: 2rem;
+    margin-left: 4rem;
+}
+.conteinergrid img{
+    width: 70%;
+    height: auto;
+
+}
+.repuesto011{
+   font-display: none;
+}
+.image-facebook{
+    width: 35px;
+    height: 35px;
+    border: none;
+    float: none;
+
+}
+.image-instagram{
+    width: 25%;
+    height: 25%;
+    border: none;
+    
+}
+
+}
+
+    @media only screen and (min-width:700px){
+        .conteiner-destacados01{
+            display: none;
+        }
+    }
